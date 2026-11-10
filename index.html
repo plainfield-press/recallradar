@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>RecallRadar - FDA recall alerts for small makers</title>
-<meta name="description" content="RecallRadar watches FDA recalls, warning letters, and import alerts for your product category and flags them the day they post. $20/month.">
+<meta name="description" content="A proposed product-recall information service. Automated category monitoring and same-day alerts are not live.">
 <style>
 :root{--lab:#0d3b66;--alert:#c1121f;--paper:#f7f9fb;--line:#d5dde5;--mute:#5d6d7e}
 *{box-sizing:border-box;margin:0;padding:0}
@@ -46,65 +46,8 @@ footer{padding:2rem 0 3rem;font-size:.82rem;color:var(--mute)}
 .mcard a.mail{display:inline-block;background:var(--lab);color:#fff;text-decoration:none;border-radius:6px;padding:.7rem 1.4rem;font-weight:700}
 .mcard .dismiss{display:block;margin-top:1rem;font-size:.85rem;color:var(--mute);cursor:pointer;text-decoration:underline;background:none;border:0}
 </style>
-</head>
-<body>
-<header><div class="wrap">
+<style>.honest{max-width:820px;margin:0 auto;padding:44px 24px 60px;line-height:1.7}.honest h1{font-size:clamp(28px,4vw,44px);line-height:1.18;max-width:24ch;margin:0 0 24px;text-align:left;color:#174d75}.honest h2{font-size:21px;letter-spacing:0;text-transform:none;text-align:left;margin:28px 0 12px;color:#174d75}.honest p{margin:14px 0;max-width:65ch}.honest .state{border-left:4px solid #174d75;padding:12px 18px;background:#fff;color:#222}.honest a{color:#174d75;overflow-wrap:anywhere}.honest .interest{display:inline-block;padding:12px 18px;margin:12px 0;background:#174d75;color:#fff;text-decoration:none}.honest footer{font-size:14px;color:#555;margin-top:32px}.honest .label{font:600 12px system-ui;letter-spacing:.12em;text-transform:uppercase;color:#174d75}</style></head>
+<body><header><div class="wrap">
 <div class="logo">RecallRadar<span class="dot"></span></div>
 <div class="sub">FDA watch for small makers</div>
-</div></header>
-
-<div class="wrap">
-<section class="hero">
-<h1>A recall in your category posts quietly on a Friday. Your co-packer hears about it before you do.</h1>
-<p>FDA recalls, warning letters, and import alerts are public - but they're posted across separate feeds, written in regulatory language, and easy to miss until a customer or a retailer asks why you didn't know. RecallRadar watches the feeds for your product category and translates what matters into a same-day flag.</p>
-</section>
-
-<h2>What we watch</h2>
-<div class="badges">
-<span class="badge">Recalls</span><span class="badge">Warning letters</span><span class="badge">Import alerts</span><span class="badge">Enforcement reports</span><span class="badge">Safety alerts</span>
-</div>
-<div class="grid">
-<div class="cell"><b>Your category, not the whole feed</b>Food, cosmetics, supplements, pet food - you get what touches your products and ingredients, not a firehose.</div>
-<div class="cell"><b>Same-day flags</b>Checked daily. When something posts in your category, you hear about it the day it happens.</div>
-<div class="cell"><b>Plain language + the source</b>What was recalled, why, which lots, and the link to the FDA posting so you can read it yourself.</div>
-</div>
-
-<h2>What a flag looks like <span style="font-size:.72rem;color:var(--mute);letter-spacing:.12em">(ILLUSTRATIVE SAMPLE)</span></h2>
-<div class="sample">
-<div class="lbl">Sample flags - format preview, not real recalls</div>
-<div class="item"><span class="sev">Recall</span><b>Class II recall - nut butter products, undeclared allergen</b><br>A category competitor recalled three lots for undeclared sesame. Relevant if you use shared suppliers.<br><span class="src">source: fda.gov/safety/recalls - posted today</span></div>
-<div class="item"><span class="sev warn">Warning letter</span><b>Letter to a supplement maker - label claims</b><br>FDA objected to structure/function claims like two on your current label. Worth a review.<br><span class="src">source: fda.gov/inspections-compliance - posted today</span></div>
-</div>
-</div>
-
-<section class="cta"><div class="wrap">
-<div class="price">$20<small>/month</small></div>
-<div>Daily watch of FDA enforcement feeds for your category. Same-day flags. Cancel anytime.</div>
-<button class="buy" id="buyBtn">Put my category on the radar - $20/mo</button>
-<div class="fine">Every flag links to the original FDA posting. We read the public record; we don't interpret your compliance for you.</div>
-</div></section>
-
-<div class="wrap"><footer>RecallRadar is a monitoring service, not regulatory or legal counsel. Always confirm against the official FDA posting before acting. RecallRadar is a Plainfield Press project.</footer></div>
-
-<div class="modal" id="modal"><div class="mcard">
-<h3>We're not taking payment yet</h3>
-<p>RecallRadar is in its final pre-launch check. Purchases open soon - join the early-access list and you'll get a code for your first month when we open.</p>
-<p>Nothing is charged on this page.</p>
-<a class="mail" id="waitLink" href="mailto:mfcyxd@mail.instinct.com?subject=RecallRadar%20early%20access">Join the early-access list</a>
-<button class="dismiss" id="dismiss">Back to the page</button>
-</div></div>
-
-<script data-goatcounter="https://recallradar.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-<script>
-var m=document.getElementById('modal');
-document.getElementById('buyBtn').addEventListener('click',function(){
-  if(window.goatcounter&&window.goatcounter.count){window.goatcounter.count({path:'buy-intent',title:'Buy intent',event:true});}
-  m.classList.add('open');
-});
-document.getElementById('waitLink').addEventListener('click',function(){
-  if(window.goatcounter&&window.goatcounter.count){window.goatcounter.count({path:'waitlist-click',title:'Waitlist click',event:true});}
-});
-document.getElementById('dismiss').addEventListener('click',function(){m.classList.remove('open');});
-</script>
-</body>
-</html>
+</div></header><main class="honest"><div class="label">RecallRadar | Prelaunch</div><h1>Product-safety updates need a traceable source.</h1><p class="state">A proposed product-recall information service. Automated category monitoring and same-day alerts are not live. No paying customers are claimed. Nothing is for sale on this page.</p><h2>No invented recalls</h2><p>The illustrative recall cards have been removed. No recall event, affected product, customer alert or safety clearance is claimed.</p><p>Future reports must link to the responsible agency and state when checked. This page is not a recall notice, compliance assessment or substitute for official safety guidance.</p><h2>Interest only, not an order</h2><p>Proposed price: $20 per month. This is an unvalidated test price, not an active plan. No payment is collected, no work starts by clicking, and no launch date or delivery time is promised.</p><a class="interest" href="mailto:mfcyxd@mail.instinct.com?subject=recallradar%20interest">Email a question or express interest</a><p>The link opens your email app. You decide whether to send. Expressing interest does not create a subscription, order or obligation.</p><footer>Prelaunch status checked November 10, 2026. We distinguish source research, interest, customer work and revenue. They are not interchangeable.</footer></main><script data-goatcounter="https://recallradar.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></body></html>
